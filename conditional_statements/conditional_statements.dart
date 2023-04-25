@@ -87,4 +87,23 @@ void main() {
   } else {
     print("You are in a low income bracket");
   }
+
+/*   Q10. Write a nested if-else statement that checks 
+if a variable password is at least 8 characters long and contains at least one uppercase letter and one number. 
+If it does, print "Strong password".
+ If it is at least 8 characters long but does not contain an uppercase letter or a number,
+  print "Weak password: add an uppercase letter and a number". 
+If it is less than 8 characters long, print "Password is too short".   */
+
+  String passowrd = '#elloQWERT';
+  if (passowrd.length < 8) {
+    print("Password is too short");
+  } else {
+    if (passowrd.contains(RegExp(r'[A-Z]')) &&
+        passowrd.contains(RegExp(r'[0-9]'))) {
+      print("Strong password");
+    } else {
+      print("Weak password: add an uppercase letter and a number");
+    }
+  }
 }
