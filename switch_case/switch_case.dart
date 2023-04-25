@@ -81,8 +81,9 @@ prints the corresponding letter grade for values from 0 to 100.
     //it will perform 99/10=9.9 and using floor will round the value to lower value i.e 9
     //it will perform 10/10=10.0 and using floor will round the value to lower value i.e 10
     //it will perform 51/10=5.1 and using floor will round the value to lower value i.e 5
-    case 9:
+
     case 10:
+    case 9:
       print('A');
       break;
     case 8:
