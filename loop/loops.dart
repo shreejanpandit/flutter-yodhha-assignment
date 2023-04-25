@@ -35,7 +35,7 @@ void main() {
   /*  Write a  loop that prints the number from 1 to 100 loop, 
   breaks if the number is 69 and continues if the number is 29. */
 
-  for (var i = 0; i < 100; i++) {
+  for (var i = 1; i < 100; i++) {
     if (i == 29) {
       continue;
     } else if (i == 69) {
