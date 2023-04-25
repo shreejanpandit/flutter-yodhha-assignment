@@ -32,7 +32,7 @@ void main() {
   }
 
   print('====================================================================');
-  /*  Write a  loop that prints the number from 1 to 100 loop, 
+  /*Q4  Write a  loop that prints the number from 1 to 100 loop, 
   breaks if the number is 69 and continues if the number is 29. */
 
   for (var i = 1; i < 100; i++) {
@@ -42,5 +42,12 @@ void main() {
       break;
     }
     print(i);
+  }
+
+  print('====================================================================');
+  /* Q5. Write a loop to print  " I am sorry baby "  100 times. */
+
+  for (var i = 0; i < 100; i++) {
+    print(" I am sorry baby ");
   }
 }
