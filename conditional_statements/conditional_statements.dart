@@ -25,4 +25,22 @@ void main() {
   } else {
     print("The number is odd");
   }
+
+/*   Q4. Write an if-else statement that checks if a variable score is greater than or equal to 60.
+ If it is, print "You passed". Otherwise, print "You failed".   */
+  double score = 90;
+  if (score >= 60) {
+    print("You passed");
+  } else {
+    print("You failed");
+  }
+
+/*   Q5. Write an if-else statement that checks if a variable password is equal to a string "abc123".
+ If it is, print "Welcome". Otherwise, print "Access denied".   */
+  String password = '#elloQWERTY';
+  if (password == "abc123") {
+    print("Welcome");
+  } else {
+    print("Access denied");
+  }
 }
