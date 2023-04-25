@@ -43,4 +43,39 @@ void main() {
   } else {
     print("Access denied");
   }
+
+/*   Q6. Write a nested if-else statement that checks if a variable grade is greater than or equal to 90. 
+          If it is, print "A". If it is greater than or equal to 80, print "B". 
+          If it is greater than or equal to 70, print "C". 
+          If it is greater than or equal to 60, print "D". Otherwise, print "F".   */
+  double grade = 85;
+  if (grade >= 90) {
+    print("A");
+  } else if (grade >= 80) {
+    print("B");
+  } else if (grade >= 70) {
+    print("C");
+  } else if (grade >= 60) {
+    print("D");
+  } else {
+    print('F');
+  }
+
+/*   Q7. Write an if statement that checks if a variable fruit is "apple" or "banana".
+          If it is, print "This is a fruit I like". Otherwise, print "I don't like this fruit".   */
+  String fruit = 'banana';
+  if (fruit == 'apple') {
+    print("This is a fruit I like");
+  } else if (fruit == 'banana') {
+    print('I don\'t like this fruit');
+  }
+
+/*   Q8. Write an if-else statement that checks if a variable name is equal to "John".
+         If it is, print "Hello John". Otherwise, print "Hello stranger".   */
+  String name = 'shreejan';
+  if (name == 'John') {
+    print("Hello John");
+  } else {
+    print('Hello stranger');
+  }
 }
