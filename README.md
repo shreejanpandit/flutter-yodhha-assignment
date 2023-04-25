@@ -13,17 +13,15 @@
 
 In Dart, a variable is a named storage location that can hold a value of a certain type.
 
-## Table of Contents
-- [Declaring Variables](#declaring-variables)
-- [Variable Naming Rules](#variable-naming-rules)
-- [Assigning Values to Variables](#assigning-values-to-variables)
-- [Variable Types](#variable-types)
 
+
+
+
+```
 ## Declaring Variables
 
 To declare a variable in Dart, you use the `var`, `final`, or `const` keyword followed by the variable name and an optional type annotation:
 
-```dart
 // Using var (type inferred)
 var name = 'Alice';
 var age = 30;
@@ -41,7 +39,8 @@ String message = 'Hello, World!';
 int count = 0;
 
 
-# Variable Naming Rules
+## Variable Naming Rules
+
 In Dart, variable names can contain letters, digits, underscores, and dollar signs. They must begin with a letter or an underscore. Dart is case-sensitive, so name and Name are two different variables.
 
 // Valid variable names
